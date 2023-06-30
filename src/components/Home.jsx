@@ -1,0 +1,72 @@
+import React from "react";
+import vg from "../assets/2.webp";
+import {
+  AiFillGoogleCircle,
+  AiFillAmazonCircle,
+  AiFillYoutube,
+  AiFillInstagram,
+} from "react-icons/ai";
+
+function Home() {
+  return (
+    <>
+      <div className="home" id="home">
+        <main>
+          <h1>TechyStar</h1>
+          <p>Solutions to all your problems</p>
+        </main>
+      </div>
+      <div className="home2">
+        <img src={vg} alt="Graphics" />
+        <div>
+          <p>
+            We are your one and only solutin to tech problems you face everyday.
+            We are Leading tech company whose aim is to increase the problem
+            solving ability in childrens
+          </p>
+        </div>
+      </div>
+      <div className="home3" id="about">
+        <div>
+          <h1>WHo are we</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+            earum voluptas quis ab voluptatem soluta. Incidunt distinctio nemo
+            totam alias quae nisi delectus consequatur maiores esse voluptatum
+            facilis soluta quisquam, vitae cum laborum exercitationem non
+            tenetur eligendi numquam natus hic. Nam corporis sed quibusdam
+            natus! Quae omnis velit officiis nam. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Consequuntur exercitationem quidem
+            sequi nulla quaerat, iusto vero laboriosam, pariatur, ut voluptate
+            ad.
+          </p>
+        </div>
+      </div>
+      <div className="home4" id="brands">
+        <div>
+          <h1>Brands</h1>
+          <article>
+            <div style={{ animationDelay: "0.3s" }}>
+              <AiFillGoogleCircle />
+              <p>Google</p>
+            </div>
+            <div style={{ animationDelay: "0.5s" }}>
+              <AiFillAmazonCircle />
+              <p>Amazon</p>
+            </div>
+            <div style={{ animationDelay: "0.7s" }}>
+              <AiFillYoutube />
+              <p>Youtube</p>
+            </div>
+            <div style={{ animationDelay: "0.9s" }}>
+              <AiFillInstagram />
+              <p>Instagram</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default Home;
